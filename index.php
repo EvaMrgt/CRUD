@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <header>
-        <h1>Yo</h1>
+        <h1>Bon titre</h1>
     </header>
     <main>
         <?php
