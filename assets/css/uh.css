@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Spiegel;
+    font-weight: 50;
+    src: url(../fonts/Fonts_Package/Spiegel-OTF/Spiegel-Regular.otf) format(truetype);
+}
+
+body {
+    font-family: 'Spiegel', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-light {
+    background: linear-gradient(to bottom right, #3C5040, #708F70, #80b27d);
+}
+
+.body-dark {
+    background-color: #123524;
+}
+
+#darkModeToggle {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.body-dark #darkModeToggle {
+    transform: rotate(180deg);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#logout {
+    position: relative;
+    left: 15em;
+    top: 1em;
+    width: 30%;
+    box-shadow: 1px 2px 2px black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f25e;
+    padding: 3px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.731);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: whitesmoke;
+    ;
+    color: black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    color: white;
+}
+
+.benjamin {
+    background-color: black;
+    color: #fff;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.benjamin:hover {
+    background-color: #9ccc95;
+}
+
+header {
+    position: relative;
+    margin-bottom: 5%;
+}
